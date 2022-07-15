@@ -1,0 +1,37 @@
+.Login {
+  .loginContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 150px;
+    height: 400px;
+    .loginLogo {
+      font-size: 50px;
+    }
+    .idBox {
+      width: 300px;
+      height: 40px;
+      margin-top: 10px;
+    }
+    .passwordBox {
+      width: 300px;
+      height: 40px;
+      margin-top: 10px;
+    }
+    .loginButton {
+      background-color: #0095f6;
+      width: 300px;
+      height: 40px;
+      margin-top: 10px;
+
+      &:hover:enabled {
+        cursor: pointer;
+      }
+
+      &:disabled {
+        opacity: 0.5;
+      }
+    }
+  }
+}
